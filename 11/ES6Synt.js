@@ -1,8 +1,9 @@
+//Тема: Spread
 let fArr = [1,2,3,4];
 console.log(fArr);
 let sArr = [...fArr,5,6,7,8];
 console.log(sArr);
-
+//Тема: Rest
 function Ffunction(Str,...arg){
     console.log(Str,arg)
 }
@@ -19,7 +20,7 @@ function getAverage(...numbers) {
     return sum / numbers.length;
 }
 console.log(getAverage(5, 15));
-
+//Тема: TypeOf
 function TOF(args) {
     console.log(`Tipe of this information is ${typeof args}`);
 }
