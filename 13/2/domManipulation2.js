@@ -33,20 +33,23 @@ window.onload = function(){
         }
     
     ];
-    let choice = prompt("Введіть номер книги (1, 2 або 3):");
-    choice = parseInt(choice) - 1;
-    let Book;
-    if (choice > -1 && choice<3) {
-        Book = booksArray[choice];
-    }else{
-        alert(`Wrong choice`);
-    }
-    let ths = document.querySelectorAll('thead th');
+    let tableBody = document.querySelector('table');
 
-    let thTitle = ths[0];
-    let thYear = ths[1];
-    let thRating = ths[2];
-    thTitle.textContent = (`Name:${Book.title};`);
-    thYear.textContent = (`Year:${Book.year};`);
-    thRating.textContent = (`Rating:${Book.rating}.`);
+    for (let book of booksArray) {
+      let row = document.createElement('tr');
+    
+      let titleCell = document.createElement('td');
+      let yearCell = document.createElement('td');
+      let ratingCell = document.createElement('td');
+    
+      titleCell.textContent = book.title;
+      yearCell.textContent = book.year;
+      ratingCell.textContent = book.rating;
+    
+      row.appendChild(titleCell);
+      row.appendChild(yearCell);
+      row.appendChild(ratingCell);
+    
+      tableBody.appendChild(row);
+    }
 }
