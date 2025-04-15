@@ -2,12 +2,12 @@ window.onload = function() {
     let form = document.createElement('form');
 
     let inputAmount = document.createElement('input');
-    inputAmount.type = 'number';
+    inputAmount.type = 'text';
     inputAmount.placeholder = 'Сума';
     inputAmount.name = 'amount';
 
     let inputRate = document.createElement('input');
-    inputRate.type = 'number';
+    inputRate.type = 'text';
     inputRate.placeholder = 'Курс';
     inputRate.name = 'rate';
 
