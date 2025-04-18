@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <select id="pizzaType">
+        <option value="margherita">Маргарита</option>
+        <option value="pepperoni">Пепероні</option>
+        <option value="hawaiian">Гавайська</option>
+    </select>
+    <form action="">
+        <input type="radio" name="size" value="0" id="small" checked>
+        <label for="small">Маленька</label>
+
+        <input type="radio" name="size" value="50" id="medium">
+        <label for="medium">Середня (+50)</label>
+
+        <input type="radio" name="size" value="100" id="large">
+        <label for="large">Велика (+100)</label>
+    </form>  
+    <form action="">
+        <input type="checkbox" value="25" id="cheese">
+        <label for="cheese">Сир</label>
+
+        <input type="checkbox" value="25" id="bacon">
+        <label for="bacon">Бекон</label>
+
+        <input type="checkbox" value="25" id="mushrooms">
+        <label for="mushrooms">Гриби</label>
+    </form>
+    <div class="result">Ціна: 0 грн</div>
+
+</body>
+<script src="formsPizza.js"> </script>
+</html>
