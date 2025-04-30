@@ -1,0 +1,74 @@
+:root {
+  --bg-color: gray;   
+}
+body {
+    background-color: var(--bg-color);
+}
+.TrueTimer {
+    background-color: #1E1E1E;
+    border: 7px solid #353535;
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    height: 230px;
+    margin-top: 20px;  
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    
+}
+.circle{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #1E1E1E;
+    border: 5px solid #FBA421;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-size: 35px;
+}
+.StartRes{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.start, .Reset {
+    transition: all 0.8s ease; 
+}
+  
+.start{
+    box-sizing: border-box;
+    background-color: #FBA421;    
+    color: black;                
+    font-size: 30px;              
+    font-weight: bold;          
+    padding: 5px 7px;           
+    border: none;                 
+    border-radius: 10px;          
+    cursor: pointer;
+}
+.start:hover {
+    background-color: #ff7b00;
+    transform: scale(1.05);
+}
+.Reset{
+    box-sizing: border-box;
+    background-color: transparent; 
+    color: white;                  
+    font-size: 30px;               
+    font-weight: bold;           
+    padding: 2px 7px;            
+    border: 3px solid white;       
+    border-radius: 10px;           
+    cursor: pointer;  
+}
+.Reset:hover {
+    background-color: white;
+    color: black;
+}
+  
