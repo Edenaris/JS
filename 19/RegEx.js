@@ -6,7 +6,7 @@ window.onload = function() {
     console.log(matches);
 
     let operation = "5 плюс 7 = 3";
-    let operationMatches = operation.match(/\d/g);
+    let operationMatches = operation.match(/\d{2,5}/g);
     console.log(operationMatches);
 
     let matches2 = textStr.match(/\w\w\w\w\w/g);
