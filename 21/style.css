@@ -1,0 +1,192 @@
+.out {
+    width: 100px;
+    height: 50px;
+    padding: 15px;
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    resize: none;
+    transition: all 1s ease;
+}
+.Save {
+    padding: 5px 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    
+    transition: all 0.4s ease;
+}
+
+.Save:hover {
+    background-color: #357abd;
+    box-shadow: 0 2px 8px rgba(74, 144, 226, 0.3);
+}
+
+.Output:focus {
+    border-color: #357abd;
+    box-shadow: 0 0 10px rgba(74, 144, 226, 0.2);
+    outline: none;
+}
+.Output {
+    margin: 10px 0;
+    cursor: pointer;
+    background: linear-gradient(145deg, #08a1dd, #044792);
+    border: 2px solid transparent;
+    transition: all 1s ease;
+}
+
+.Output:hover {
+    background: linear-gradient(145deg, #8c14b1, #0973ec);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(1, 43, 92, 0.2);
+}
+
+.Output:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(10, 27, 48, 0.1);
+}
+.input {
+    width: 180px;
+    padding: 8px 12px;
+    border: 2px solid #4a90e2;
+    border-radius: 6px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    transition: all 0.3s ease;
+    transition: transform 1s ease;
+}
+
+.input:focus {
+    border-color: #357abd;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.2);
+    outline: none;
+}
+
+.input::placeholder {
+    color: #999;
+    opacity: 0.8;
+}
+
+.input:hover {
+    border-color: #357abd;
+    transform: translateY(-1px);
+}
+.colorSelect {
+    width: 150px;
+    padding: 8px;
+    border: 2px solid #4a90e2;
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-sizing: border-box;
+}
+
+.colorSelect:hover {
+    border-color: #357abd;
+    box-shadow: 0 0 12px rgba(74, 144, 226, 0.3);
+    transform: translateY(-2px);
+}
+
+.colorSelect:focus {
+    outline: none;
+    border-color: #357abd;
+    box-shadow: 0 0 15px rgba(74, 144, 226, 0.4);
+}
+
+.colorBox {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 15px 0;
+    border: 2px solid #4a90e2;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 1s ease;
+}
+
+.colorBox:hover {
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.background {
+    max-width: 400px;
+    max-height: 400px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #ffd700;
+    border-radius: 12px;
+    background-color: rgba(255, 250, 240, 0.8);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.background:hover {
+    border-color: #daa520;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    background-color: rgba(255, 250, 240, 0.9);
+}
+.todoInput {
+    width: 250px;
+    padding: 12px;
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.todoInput:focus {
+    border-color: #357abd;
+    box-shadow: 0 0 12px rgba(74, 144, 226, 0.2);
+    outline: none;
+}
+
+.addBtn {
+    padding: 12px 24px;
+    background: linear-gradient(145deg, #4a90e2, #357abd);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.addBtn:hover {
+    background: linear-gradient(145deg, #357abd, #2868a0);
+    transform: translateY(-2px);
+}
+
+.todoList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.todoList li {
+    background: #f8f9fa;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #4a90e2;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.todoList li:hover {
+    transform: translateX(10px);
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(74, 144, 226, 0.2);
+}
