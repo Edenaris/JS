@@ -1,0 +1,9 @@
+{
+  "name": "Ruslan",
+  "age": 18,
+  "skills": ["HTML", "CSS", "JavaScript"],
+  "address": {
+    "city": "Kharkiv",
+    "country": "Ukraine"
+  }
+}
