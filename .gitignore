@@ -1,0 +1,13 @@
+node_modules/
+
+secret.txt
+config.env
+
+*.log
+*.temp
+*.zip
+*.rar
+
+.vscode/
+
+test/
